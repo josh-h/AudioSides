@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local signing credentials and certificate requests
+*.p12
+*.pfx
+*.cer
+*.certSigningRequest
+*.key
+*.mobileprovision
+*.provisionprofile
+.env
+.env.local
